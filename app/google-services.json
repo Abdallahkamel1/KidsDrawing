@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "375500381009",
+    "firebase_url": "https://heartaiapp-default-rtdb.firebaseio.com",
+    "project_id": "heartaiapp",
+    "storage_bucket": "heartaiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375500381009:android:60b10ff93d39d8e45f1170",
+        "android_client_info": {
+          "package_name": "com.example.heartaiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrtmqm96uOlhILZ6Jh-PzIfq0ytridevQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375500381009:android:e46ba8f9b042ed5e5f1170",
+        "android_client_info": {
+          "package_name": "com.example.heartpredictorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrtmqm96uOlhILZ6Jh-PzIfq0ytridevQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

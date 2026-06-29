@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NewAccountActivity">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/roundframe"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/imgBack"
+            android:src="@drawable/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/header" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="@string/register"
+            android:textColor="@color/purpulecolor"
+            android:textSize="30dp"
+            android:fontFamily="@font/adlamdisplay"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout1"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/enter_name"
+            android:textColor="@color/pinkcolor"
+            android:textSize="16dp"
+            android:fontFamily="@font/itckrstin"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Name"
+            app:counterMaxLength="15"
+            android:transitionName="username_tran"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedtext"
+            android:inputType="text"
+            android:textSize="16dp"
+            android:fontFamily="@font/adlamdisplay"
+            android:gravity="center"
+            android:textColor="@color/redcolor"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/enter_email"
+            android:textColor="@color/pinkcolor"
+            android:textSize="16dp"
+            android:fontFamily="@font/itckrstin"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Email"
+            app:counterMaxLength="15"
+            android:transitionName="username_tran"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedtext"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:fontFamily="@font/adlamdisplay"
+                android:gravity="center"
+                android:textColor="@color/redcolor"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/enter_phone"
+            android:textColor="@color/pinkcolor"
+            android:textSize="16dp"
+            android:fontFamily="@font/itckrstin"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Phone"
+            app:counterMaxLength="15"
+            android:transitionName="username_tran"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedtext"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:fontFamily="@font/adlamdisplay"
+                android:gravity="center"
+                android:textColor="@color/redcolor"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/pass_data"
+            android:textColor="@color/pinkcolor"
+            android:textSize="16dp"
+            android:fontFamily="@font/itckrstin"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            app:passwordToggleEnabled="true"
+            android:hint="Password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedtext"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textSize="16dp"
+                android:fontFamily="@font/adlamdisplay"
+                android:gravity="center"
+                android:textColor="@color/redcolor"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/itckrstin"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/purpulecolor"
+                android:text="Parent" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/itckrstin"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textColor="@color/pinkcolor"
+                android:textSize="16dp"
+                android:text="Doctor" />
+
+        </RadioGroup>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_red"
+            android:padding="8dp"
+            android:text="@string/register"
+            android:fontFamily="@font/adlamdisplay"
+            android:textColor="@color/yellow2"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-85dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/tail" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

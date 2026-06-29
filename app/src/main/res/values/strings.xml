@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Soul Drawing App</string>
+    <string name="start">START</string>
+    <string name="login">Login</string>
+    <string name="login_data">Enter Email or Phone</string>
+    <string name="pass_data">Enter Password</string>
+    <string name="forget_pass">Forget password?</string>
+    <string name="create_account">Do not have an account?</string>
+    <string name="new_account">Create New</string>
+    <string name="forget">Reset Password</string>
+    <string name="return_login">Return to Login?</string>
+    <string name="submit">Submit</string>
+    <string name="register">Register</string>
+    <string name="enter_name">Enter your Name</string>
+    <string name="enter_email">Enter your Email</string>
+    <string name="enter_phone">Enter your Phone</string>
+    <string name="admin">Administrator</string>
+    <string name="manage_doctors">Manage Doctors</string>
+    <string name="manage_parents">Manage Parents</string>
+    <string name="manage_groups">Discussion Groups</string>
+    <string name="view_reports">View Reports</string>
+    <string name="doctor">Doctor</string>
+    <string name="view_drawings">View Drawings</string>
+    <string name="manage_appointments">Manage Appointments</string>
+    <string name="chat">Chat</string>
+    <string name="parent">Parent</string>
+    <string name="manage_kids">Manage Kids</string>
+    <string name="upload_drawing">Upload Drawings</string>
+    <string name="request_appointment">Request Appointment</string>
+    <string name="child">Child</string>
+    <string name="view_results">View Results</string>
+    <string name="upload">Upload Drawing</string>
+    <string name="choose">Choose Drawing</string>
+    <string name="view_doctors">View Doctors</string>
+    <string name="appoint_date">Appointment Date</string>
+    <string name="appoint_time">Appointment Time</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="done">Done</string>
+    <string name="view_appointments">View Appointments</string>
+    <string name="add_diagnosis">Add Diagnosis</string>
+    <string name="add_child">Add Child</string>
+    <string name="name">Enter Child Name</string>
+    <string name="save">Save</string>
+    <string name="age">Enter Child Age</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="user_error">Email or Phone is required</string>
+    <string name="pass_error">Password id required</string>
+    <string name="name_error">Name is required</string>
+    <string name="phone_error">Phone is required</string>
+    <string name="email_error">Email is required</string>
+    <string name="email_invalid">Email is invalid</string>
+    <string name="pass_invalid">Password is invalid</string>
+    <string name="enter_new_passsword">Enter New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_error">Confirmation Password Required</string>
+    <string name="password_mismatch">Mismatch Passwords</string>
+    <string name="confirm_logout">Confirm Logout</string>
+    <string name="logout_msg">Are you sure you want to exit your account?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="name_used">Child name is already used</string>
+    <string name="age_error">Age is required</string>
+    <string name="user_profile">User Profile</string>
+    <string name="close">Close</string>
+    <string-array name="special">
+        <item>Select Speciality</item>
+        <item>General Adult Cardiologists</item>
+        <item>Cardiovascular Speciality</item>
+        <item>Pediatric Cardiology</item>
+        <item>Cardiovascular surgery</item>
+        <item>Heart Failure Specialist</item>
+        <item>Cardiac Imaging Specialist</item>
+        <item>Adult Congenital Heart Specialist</item>
+        <item>Interventional Cardiologists</item>
+        <item>Cardiac Rehabilitation Specialist</item>
+        <item>Heart Transplant Speciality</item>
+        <item>Women Heart Speciality</item>
+        <item>Oncology Cardiology Speciality</item>
+    </string-array>
+    <string-array name="state">
+        <item>active</item>
+        <item>disable</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string name="doctor_deleted">Selected Doctor Deleted</string>
+    <string name="delete">Delete</string>
+    <string name="ask_delete">Delete selected Doctor?</string>
+    <string name="cancel">Cancel</string>
+    <string name="activate">Activate</string>
+    <string name="ask_activate">Activate selected Doctor?</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="ask_deactivate">Deactivate selected Doctor?</string>
+    <string name="ask_delete_parent">Delete selected Parent?</string>
+    <string name="parent_deleted">Selected Parent Deleted</string>
+    <string name="group_title">Discussion Group Title</string>
+    <string name="group_desc">Discussion Group Description</string>
+    <string name="add_group">Add Discussion Group</string>
+    <string name="title_error">Group Title is reqiured</string>
+    <string name="desc_error">Group Desc is required</string>
+    <string name="title_used">Group Title already found</string>
+    <string name="ask_delete_group">Delete selected Group?</string>
+    <string name="group_deleted">Selected Group Deleted</string>
+    <string name="update_group">Update Discussion Group</string>
+    <string name="group_state">Group State</string>
+    <string name="participations">Participations</string>
+    <string name="child_deleted">Child Deleted</string>
+    <string name="ask_delete_child">Delete selected Child?</string>
+    <string name="child_sex">Child Gender</string>
+    <string name="update_child">Update Child</string>
+    <string name="request_drawing_analysis">Request Darwing Analysis</string>
+    <string name="app_date_required">Appointment Date Required</string>
+    <string name="app_time_required">Appointment Time Required</string>
+    <string name="wait_appointment">There is a waiting appointment with the doctor</string>
+    <string name="draw_deleted">Drawing Deleted</string>
+    <string name="ask_delete_drawing">Delete selected Drawing?</string>
+    <string name="request_analysis">Request Drawing Analysis</string>
+    <string name="request">Request</string>
+    <string name="kids_drawings">Kids Drawings</string>
+    <string name="analyze_drawings">Analyze Drawings</string>
+    <string name="analyze">Analyze</string>
+    <string name="diagnose_error">Diagnosis Required</string>
+    <string name="recommend_error">Recommendation Required</string>
+    <string name="analysis_date">Analysis Date</string>
+    <string name="submit_drawing">Submit Drawing</string>
+    <string name="upload_analyze_draw">Upload and Analyze Drawing</string>
+</resources>

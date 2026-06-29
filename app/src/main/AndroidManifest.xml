@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.HeartPredictorApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".doctor.ViewAllParentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorParticipateGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ViewDiagnosisAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ViewDrawingAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ViewDrawingDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.UpdateAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ChatDoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ParentParticipateGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ViewDrawingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ParentAllDoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.RequestAnalysisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ViewDrawingParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ChildDrawingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.AddAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.RequestAIAnalysisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.UpdateChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.GroupParticipationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UpdateGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.EditProfileChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.EditProfileDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.EditProfileParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EditProfileAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ViewReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageDiscussionGroupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageParentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageDoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.AddChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ChatDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.AddDiagnosisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorDiscussionGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ViewAppointmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ViewDrawingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ViewResultChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ViewAnalysisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ChatParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ManageAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ViewDoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ParentDiscussionGroupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ManageKidsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.UploadDrawingParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.UploadDrawingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".child.ChildActivity"
+            android:exported="false" />
+        <activity
+            android:name=".parent.ParentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SoulDrawingApp</string>
+    <string name="start">ابدأ</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_data">ادخل البريد الالكتروني أو رقم الهاتف</string>
+    <string name="pass_data">ادخل كلمة المرور</string>
+    <string name="forget_pass">نسيت كلمة المرور ؟</string>
+    <string name="create_account">ليس لديك حساب ؟</string>
+    <string name="new_account">حساب جديد</string>
+    <string name="forget">استعادة كلمة المرور</string>
+    <string name="return_login">العودة إلى تسجيل الدخول؟</string>
+    <string name="submit">إرسال</string>
+    <string name="register">تسجيل جديد</string>
+    <string name="enter_name">اكتب اسمك</string>
+    <string name="enter_email">اكتب ايميلك</string>
+    <string name="enter_phone">اكتب هاتفك</string>
+    <string name="admin">مسؤول النظام</string>
+    <string name="manage_doctors">إدارة الأطباء</string>
+    <string name="manage_parents">"إدارة الأباء "</string>
+    <string name="manage_groups">مجموعات النقاش</string>
+    <string name="view_reports">عرض التقارير</string>
+    <string name="doctor">الطبيب</string>
+    <string name="view_drawings">عرض الرسومات</string>
+    <string name="manage_appointments">إدارة المواعيد</string>
+    <string name="chat">الدردشة</string>
+    <string name="parent">الوالد</string>
+    <string name="manage_kids">إدارة الأطفال</string>
+    <string name="upload_drawing">تحميل الرسومات</string>
+    <string name="request_appointment">طلب موعد</string>
+    <string name="child">الطفل</string>
+    <string name="view_results">عرض النتائج</string>
+    <string name="upload">تحميل الرسم</string>
+    <string name="choose">اختر ملف الرسم</string>
+    <string name="view_doctors">عرض الأطباء</string>
+    <string name="appoint_date">تاريخ الموعد</string>
+    <string name="appoint_time">وقت الموعد</string>
+    <string name="diagnosis">التشخيص</string>
+    <string name="recommendations">الأرشادات</string>
+    <string name="done">تم</string>
+    <string name="view_appointments">عرض المواعيد</string>
+    <string name="add_diagnosis">إضافة التشخيص</string>
+    <string name="add_child">إضافة طفل</string>
+    <string name="name">إضافة اسم الطفل</string>
+    <string name="save">حفظ</string>
+    <string name="age">إضافة عمر الطفل</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="user_error">البريد الإلكتروني أو الهاتف مطلوب</string>
+    <string name="pass_error">كلمة المرور مطلوبة</string>
+    <string name="name_error">الاسم مطلوب</string>
+    <string name="phone_error">رقم الهاتف مطلوب</string>
+    <string name="email_error">البريد الالكتروني مطلوب</string>
+    <string name="email_invalid">البريد الالكتروني غير صالح</string>
+    <string name="pass_invalid">كلمة المرور غير صالح</string>
+    <string name="enter_new_passsword">كلمة المرور الجديدة</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="confirm_error">تأكيد كلمة المرور مطلوب</string>
+    <string name="password_mismatch">كلمة المرور غير متطابقة</string>
+    <string name="confirm_logout">تأكيد الخروج</string>
+    <string name="logout_msg">هل تريد بالتأكيد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="name_used">اسم الطفل مستخدم من قبل</string>
+    <string name="age_error">عمر الطفل مطلوب</string>
+    <string name="user_profile">بروفايل المستخدم</string>
+    <string name="close">إغلاق</string>
+    <string-array name="special">
+        <item>Select Speciality</item>
+        <item>أطباء القلب للبالغين</item>
+        <item>تخصص القلب والأوعية الدموية</item>
+        <item>أمراض القلب للأطفال</item>
+        <item>جراحة القلب والأوعية الدموية</item>
+        <item>متخصصون في قصور القلب</item>
+        <item>أخصائي تصوير القلب</item>
+        <item>أخصائي القلب الخلقي للبالغين</item>
+        <item>أطباء القلب التداخلي</item>
+        <item>أخصائي إعادة تأهيل القلب</item>
+        <item>تخصص زراعة القلب</item>
+        <item>تخصص قلب النساء</item>
+        <item>تخصص الأورام والقلب</item>
+    </string-array>
+    <string-array name="state">
+        <item>active</item>
+        <item>disable</item>
+    </string-array>
+    <string-array name="sex">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string name="doctor_deleted">الطبيب المحدد تم حذفه</string>
+    <string name="delete">حذف</string>
+    <string name="ask_delete">حذف الطبيب المحدد ؟</string>
+    <string name="cancel">إلغاء الأمر</string>
+    <string name="activate">تفعيل</string>
+    <string name="ask_activate">تفعيل الطبيب المحدد؟</string>
+    <string name="deactivate">تعطيل</string>
+    <string name="ask_deactivate">تعطيل الطبيب المحدد؟</string>
+    <string name="ask_delete_parent">حذف الوالد المحدد؟</string>
+    <string name="parent_deleted">الوالد المحدد تم حذفه</string>
+    <string name="group_title">"عنوان مجموعة المناقشة "</string>
+    <string name="group_desc">وصف مجموعة المناقشة</string>
+    <string name="add_group">إضافة مجموعة نقاش</string>
+    <string name="title_error">عنوان المجموعة مطلوب</string>
+    <string name="desc_error">وصف المجموعة مطلوب</string>
+    <string name="title_used">عنوان المجموعة موجود بالفعل</string>
+    <string name="ask_delete_group">حذف المجموعة المحددة؟</string>
+    <string name="group_deleted">تم حذف المجموعة المحددة</string>
+    <string name="update_group">تعديل مجموعة نقاش</string>
+    <string name="group_state">حالة المجموعة</string>
+    <string name="participations">المشاركات</string>
+    <string name="child_deleted">تم حذف الطفل</string>
+    <string name="ask_delete_child">حذف الطفل المحدد؟</string>
+    <string name="child_sex">نوع الطفل</string>
+    <string name="update_child">تعديل الطفل</string>
+    <string name="request_drawing_analysis">طلب تحليل الرسم</string>
+    <string name="app_date_required">تاريخ الموعد مطلوب</string>
+    <string name="app_time_required">وقت الموعد مطلوب</string>
+    <string name="wait_appointment">هناك موعد انتظار مع الطبيب</string>
+    <string name="draw_deleted">تم حف الرسمة</string>
+    <string name="ask_delete_drawing">حذف الرسمة المحددة؟</string>
+    <string name="request_analysis">طلب تحليل الرسم</string>
+    <string name="request">طلب</string>
+    <string name="kids_drawings">رسومات الأطفال</string>
+    <string name="analyze_drawings">تحليل الرسمة</string>
+    <string name="analyze">تحليل</string>
+    <string name="diagnose_error">التشخيص مطلوب</string>
+    <string name="recommend_error">التوصيات والإجراءات مطلوبة</string>
+    <string name="analysis_date">تاريخ التحليل</string>
+    <string name="submit_drawing">إرسال الرسم</string>
+    <string name="upload_analyze_draw">تحميل وتحليل الرسم</string>
+</resources>
